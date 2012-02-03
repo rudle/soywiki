@@ -609,7 +609,7 @@ func! s:global_mappings()
   nnoremap <leader>n :call <SID>list_namespaces()<CR>
 
   nnoremap <silent> <leader>o :call <SID>find_next_href_and_open()<cr> 
-  nnoremap <silent> q :close<cr>
+  nnoremap <Leader>q :close<cr>
   " for netrw vertical split
   nnoremap ,O :exec "silent botright vsplit ". expand("<cWORD>")<cr>
 
